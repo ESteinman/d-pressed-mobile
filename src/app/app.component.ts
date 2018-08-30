@@ -9,21 +9,6 @@ import { HomePage } from '../pages/home/home';
   templateUrl: 'app.html'
 })
 export class MyApp {
-<<<<<<< HEAD
-  rootPage:any = HomePage;
-
-  pages: Array<{title:string, component: any}>;
-
-  constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
-    platform.ready().then(() => {
-
-      statusBar.styleDefault();
-      splashScreen.hide();
-
-      this.pages = [
-        { title: 'Home', component: HomePage},
-      ];
-=======
   @ViewChild(Nav) nav: Nav;
 
   rootPage: any = HomePage;
@@ -49,7 +34,6 @@ export class MyApp {
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
->>>>>>> e23e9c7ed295b1d543ffa7909aa0e6aca2cddc58
     });
   }
 
