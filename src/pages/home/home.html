@@ -16,7 +16,7 @@
       {{ article.image }}
       <br>
       {{ article.body }}
-      {{ article.created_at }}
+      {{ article.created_at | date:'medium'}}
       {{ article.comments }}
     </ion-item>
   </ion-list>
