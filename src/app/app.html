@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-<ion-content>
-    <ion-list>
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
-        {{p.title}}
-      </button>
-    </ion-list>
-  </ion-content>
-=======
 <ion-menu [content]="content">
     <ion-header>
       <ion-toolbar>
@@ -25,4 +16,3 @@
   </ion-menu>
   
   <ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
->>>>>>> e23e9c7ed295b1d543ffa7909aa0e6aca2cddc58
