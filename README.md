@@ -1,4 +1,4 @@
-### Ionic Boilerplate
+### Ionic D-pressed
 
 Ionic blank application with testing environment setup
 
